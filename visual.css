@@ -8,58 +8,56 @@ body {
 }
 
 #logo {
-    width: 200px;
-    position: absolute;
-    left: 20px;
-    top: 20px;
+    width: 70vw;
+    padding: 1rem;
 }
 
 #video {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    height: calc(100vh);
-    background-color: #154982;
+    max-width: 100vw;
+    height: 100vh;
+    font-size: 15pt;
+    color: #F5D593;
 }
 
 #video iframe{
-    border-radius: 40px;
-    border: double 5px #CAB340;
-    padding: 10px;
+    width: 100vw;
+    height: 40vh;
 }
 
 #video p{
-    font-size: 15pt;
+    margin: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
     color: #CAB340;
 }
 
 #Sec1 {
-    background-color: #F7EBD2;
     max-width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: space-between;
-    padding: 50px;
-}
-
-#Sec1 img, #Sec1 p{
-    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    background-color: #F7EBD2;
+    font-size: 15pt;
 }
 
 #Sec1 p{
-    font-size: 15pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px;
+}
+
+#Sec1 img{
+    width: 60vw;
+    margin: 15px;
 }
 
 .fixedbackground {
+    background-position: cover;
     background-size: cover;
-    background-attachment: fixed;
     max-width: 100vw;
     height: 100vh;
     margin-bottom: 15px;
@@ -77,8 +75,7 @@ body {
     width: 70vw;
     font-size: 15pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #154982;
-    border-radius: 15px 50%;
+    background-color: #154a82ae;
     padding: 4rem;
     color: #F7EBD2;
     margin-bottom: 50px;
@@ -88,15 +85,14 @@ body {
 #Sec3 {
     background-image: url("img/sweet-home.png");
     justify-content: right;
-    align-items: center;
+    align-items: end;
     display: flex;
 }
 
 #Sec3 div{
-    width: 60vw;
-    background-color: #5888A8;
+    width: 100vw;
+    background-color: #154a82ae;
     padding: 1rem 1rem 1rem 3rem;
-    border-radius: 1rem 0 0 1rem;
     color: #F7EBD2;
 }
 
@@ -111,23 +107,22 @@ body {
 
 #Sec4{
     background-image: url("img/Agua-abundante.png");
-    justify-content: center;
+    justify-content: end;
     align-items: start;
     display: flex;
     flex-direction: column;
 }
 
 #Sec4 div{
-    width: 60vw;
-    background-color: #5888A8;
+    max-width: 100vw;
+    background-color: #154a82ae;
     padding: 1rem 1rem 1rem 3rem;
-    border-radius: 0 1rem 1rem 0;
     color: #F7EBD2;
 }
 
 #Sec4 h2{
     margin-bottom: 5px;
-    font-size: 40pt;
+    font-size: 25pt;
 }
 #Sec4 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -136,24 +131,23 @@ body {
 
 #Sec5{
     background-image: url("img/agro.png");
-    justify-content: center;
+    justify-content: end;
     align-items: end;
     display: flex;
     flex-direction: column;
 }
 
 #Sec5 div{
-    
-    width: 50vw;
-    background-color: #5888A8;
+        
+    max-width: 100vw;
+    background-color: #154a82ae;
     padding: 1rem 1rem 1rem 3rem;
-    border-radius: 1rem 0 0 1rem;
     color: #F7EBD2;
 }
 
 #Sec5 h2{
     margin-bottom: 5px;
-    font-size: 40pt;
+    font-size: 25pt;
 }
 #Sec5 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -162,23 +156,22 @@ body {
 
 #Sec6{
     background-image: url("img/lazer.png");
-    justify-content: center;
+    justify-content: end;
     align-items: start;
     display: flex;
     flex-direction: column;
 }
 
 #Sec6 div{
-    width: 50vw;
-    background-color: #5888A8;
+    max-width: 100vw;
+    background-color:#154a82ae;
     padding: 1rem 1rem 1rem 3rem;
-    border-radius: 0 1rem 1rem 0;
     color: #F7EBD2;
 }
 
 #Sec6 h2{
     margin-bottom: 5px;
-    font-size: 40pt;
+    font-size: 25pt;
 }
 #Sec6 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -190,22 +183,25 @@ body {
     justify-content: left;
     align-items: center;
     display: flex;
+    flex-direction: column;
     max-width: 100vw;
-    height: 100vh;
     margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 #Sec7 div, #Sec8 div{
-    width: 50vw;
+    width: 80vw;
     background-color: #5888A8;
     padding: 1rem 1rem 1rem 3rem;
-    border-radius: 0 1rem 1rem 0;
+    border-radius:1rem;
     color: #F7EBD2;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 #Sec7 h2{
     margin-bottom: 5px;
-    font-size: 40pt;
+    font-size: 25pt;
 }
 #Sec7 p, #Sec8 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -213,16 +209,13 @@ body {
 }
 
 #Sec7 img{
+    width: 60vw;
     filter: drop-shadow(5px 5px 5px #222);
-}
-
-#Sec8{
-    flex-direction: row-reverse;
 }
 
 #Sec8 img {
     filter: drop-shadow(5px 5px 5px #222);
-    width: 50vw;
+    width: 60vw;
     max-width: 500px;
 }
 
@@ -231,12 +224,15 @@ body {
     flex-direction: column;
     align-items: center;
     max-height: calc(377+16+16);
-    width: 50vw;
-    border-radius: 1rem 1rem;
+    width: 80vw;
+    border-radius: 1rem;
+    padding-bottom: 15vh;
 }
 
 #Sec8 div img{
-    width: 40vw;
+    position: absolute;
+    width: 300px;
+    left: calc(50vw - 150px);
     transition: all 300ms ease-in-out; 
 }
 #Sec8 div img:hover{
@@ -258,7 +254,162 @@ footer {
     box-shadow: 5px 5px 5px #222;
 }
 
+
+    
 footer a{
     color: #154982;
     text-decoration: none;
+    font-weight: bolder;
+}
+@media screen and (min-width:860px) {
+    #logo {
+        width: 200px;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    
+    #video {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: calc(100vh);
+        background-color: #154982;
+    }
+    
+    #video iframe{
+        border-radius: 40px;
+        border: double 5px #CAB340;
+        padding: 10px;
+        width: 50vw;
+        height: 70vh;
+    }
+    
+    #video p{
+        font-size: 15pt;
+        font-weight: bolder;
+    }
+    
+    #Sec1 {
+        max-width: 100vw;
+        justify-content: space-between;
+        padding: 0;
+        flex-direction: row;
+    }
+    
+    #Sec1 img, #Sec1 p{
+        display: flex;
+        align-items: center;
+        width: 500px;
+        height: 500px;
+    }
+    
+    .fixedbackground {
+        background-attachment: fixed;
+    }
+    
+    #Sec2 p{
+        background-color: #154982;
+        border-radius: 15px 50%;
+    }
+    
+    #Sec3 {
+        align-items: center;
+    }
+    
+    #Sec3 div{
+        width: 60vw;
+        background-color: #5888A8;
+        border-radius: 1rem 0 0 1rem;
+    }
+    
+    #Sec3 h2{
+        font-size: 40pt;
+    }
+    
+    #Sec4{
+        justify-content: center;
+    }
+    
+    #Sec4 div{
+        width: 60vw;
+        background-color: #5888A8;
+        border-radius: 0 1rem 1rem 0;
+    }
+    
+    #Sec4 h2{
+        font-size: 40pt;
+    }
+    
+    #Sec5{
+        justify-content: center;
+    }
+    
+    #Sec5 div{
+        
+        width: 50vw;
+        background-color: #5888A8;
+        border-radius: 1rem 0 0 1rem;
+    }
+    
+    #Sec5 h2{
+        font-size: 40pt;
+    }
+    
+    #Sec6{
+        justify-content: center;
+    }
+    
+    #Sec6 div{
+        width: 50vw;
+        background-color: #5888A8;
+        border-radius: 0 1rem 1rem 0;
+    }
+    
+    #Sec6 h2{
+        font-size: 40pt;
+    }
+    
+    #Sec7, #Sec8{
+        max-width: 100vw;
+        height: 100vh;
+        margin-bottom: 15px;
+        padding: 0;
+        flex-direction: row;
+    }
+    
+    #Sec7 div, #Sec8 div{
+        width: 50vw;
+        border-radius: 0 1rem 1rem 0;
+    }
+    
+    #Sec7 h2{
+        font-size: 40pt;
+    }
+    
+    #Sec7 img{
+        width: auto;
+    }
+    
+    #Sec8{
+        flex-direction: row-reverse;
+        justify-content: right;
+    }
+    
+    #Sec8 img {
+        width: 50vw;
+        max-width: 500px;
+    }
+    
+    #Sec8 div {
+        width: 50vw;
+        padding-bottom: 1rem;
+        border-radius: 1rem 0 0 1rem;
+    }
+    
+    #Sec8 div img{
+        width: 40vw;
+        position:static;
+    }
 }
